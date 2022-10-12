@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #gramatica img{
+           width: 500px;
+           height: 369px;
+       }
+    </style>
+</head>
+<body >
+    
+    <h1>9° Série A - Prova de Conhecimentos Gerais</h1>
+    <p>Responda todas as questões, utilize rascunhos em papel para realizar os cálculos. Os rascunhos serão recolhidos
+        pela professora após a quarentena.
+    </p>
+    <form action="">
+        <div id="field">
+            <fieldset>
+                <legend>Informações do Aluno:</legend>
+                <input type="text" name="name" placeholder="Nome"><br>
+                <input type="number" name="pessoas" placeholder="N° de pessoas do seu grupo"><br>
+                <input type="email" name="email" placeholder="Digite seu E-Mail"><br>
+                <label for="nascimento">Data de Nascimento:</label><br>
+                <input type="date">
+            </fieldset>
+        </div>
+
+       
+            <div>
+                <fieldset>
+                    <legend>História:</legend>
+                    <img src="história.jpg" alt="História">
+                    <h4>O período colonial no Brasil teve ínicio em:</h4>
+                   <label for="">
+                       <input type="text">
+                   </label><br>
+                   <br>
+                   <label for="range">Esta tarefa foi difícil?</label>
+                   <input type="range" min="0" max="10">
+                </fieldset>
+            </div>
+       
+
+        <div id="gramatica">
+            <fieldset>
+                <legend>Português</legend>
+
+                <img src="https://i1.wp.com/www.guiaestudo.com.br/wp-content/uploads/2019/05/gramatica-da-lingua-inglesa.jpeg" alt="Gramática">
+                <p>Questão 1- (NEMESIS) Analise as afirmativas:
+                    <br>
+                    <br>
+                    I- A Gramática (do grego: ypauuatlk´n, transl. grammatiké, feminino substantivado de grammatikós) é um grande conjunto de regras e estudos, classificados em diversos tipos. A que designa o caráter prescritivo da língua, que impõe as regras e o padrão a ser seguido, nós a chamamos de Gramática Normativa.
+                    <br>
+                    <br>
+                     II- Dentro da Gramática Normativa temos a Morfologia (morfo = forma, logia = estudo), parte que estuda as classes de palavras, ou seja, o estudo da forma da palavra.
+                    <br>
+                    <br>
+                     III- Na Morfologia, portanto, não estudamos as relações entre as palavras, o, contexto de comunicação em que estão inseridas ou outros fatores que podem influenciá-las, mas somente a forma da palavra, o que de fato ela é.
+                    <br>
+                    <br>
+                    Está correto o que se afirma em: </p>
+                    
+                    <label for="">
+                        <input type="radio">Apenas I e II 
+                    </label><br>
+                    <label for="">
+                        <input type="radio">Apenas II e III
+                    </label><br>
+                    <label for="">
+                        <input type="radio">Apenas I e III
+                    </label><br>
+                    <label for="">
+                        <input type="radio">Apenas I
+                    </label><br>
+                    <label for="">
+                        <input type="radio">Todas as alternativas
+                    </label>
+
+                    <p>Complete a fala: "Independência ou _____"</p>
+                    <input type="checkbox"> Guerra <br>
+                    <input type="checkbox"> Revolução <br>
+                    <input type="checkbox"> Morte <br>
+                    <input type="checkbox"> Sonegação de impostos <br>
+                    <input type="checkbox"> Traição <br>
+            </fieldset>
+        </div>
+
+        <fieldset>
+            <legend>Dê uma nota para sua professora:</legend>
+            <label for="">Sua professora explica bem a matéria?</label>
+            <input type="range" min="0" max="10">
+        </fieldset>
+
+        <fieldset>
+            <legend>Opiniões</legend>
+            <p>Digite a sua opinião sobre a disciplina</p>
+            <textarea name="opinião" id="op" cols="100" rows="30"></textarea>
+        </fieldset><br>
+        <input type="button" value="Gravar respostas">
+
+        
+    </form>
+</body>
+</html>
