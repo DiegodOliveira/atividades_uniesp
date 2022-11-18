@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -13,6 +13,7 @@ nav{
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: #4ed28e;
 }
 
@@ -34,3 +35,33 @@ nav ul a:hover{
     transition: .3s;
 }
 
+#titulo{
+    align-content: center;
+    margin-top: 30px;
+    justify-items: center;
+    text-align: center;
+}
+
+header h1 span{
+    color: #ff0000;
+}
+
+#emergencia{
+    margin-top: 20px;
+}
+
+.imagens{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pano{
+    height: 306px;
+    width: 568px;
+    margin: auto;
+    display: block;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
